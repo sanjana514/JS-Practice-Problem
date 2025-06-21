@@ -8,10 +8,7 @@ This faulty calculator does following:
 * ---> +
 - ---> /
 / ---> **
-
-
 It performs wrong operation 10% of the times
-
 */
 let random=Math.random(); // Generates a random number between 0 and 1
 console.log(random);
