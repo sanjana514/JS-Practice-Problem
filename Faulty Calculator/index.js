@@ -31,7 +31,7 @@ if(random>0.1){
     alert(`Result is:${eval(number1 + operation + number2)}`);
     
 }
-// else{
-//     console.log("performing faulty operation");
-//     alert(`Result is:${eval(number1 + obj[operation] + number2)}`);
-// }
+else{
+    console.log("performing faulty operation");
+    alert(`Result is:${eval(number1 + obj[operation] + number2)}`);
+}
