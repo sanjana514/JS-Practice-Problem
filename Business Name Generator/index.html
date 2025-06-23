@@ -1,0 +1,50 @@
+// for boilerplate HTML structure type (shift+!+enter)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusinessNameGenerator</title>
+</head>
+<body>
+    <script>
+        let rand=Math.random(); // Generates a random number between 0 and 1
+console.log(rand);
+let first,second,third;
+if(rand<0.33){
+    first="Crazy";
+}
+else if(rand<0.66){
+    first="Amazing";
+}
+else{
+    first="Fire";
+}
+rand=Math.random(); // Generates a random number between 0 and 1
+console.log(rand);
+if(rand<0.33){
+    second="Engine";
+}
+else if(rand<0.66){
+    second="Foods";
+}
+else{
+    second="Garments";
+}
+rand=Math.random(); // Generates a random number between 0 and 1
+console.log(rand);
+if(rand<0.33){
+    third="Bros";
+}
+else if(rand<0.66){
+    third="Limited";
+}
+else{
+    third="Hub";
+}
+let businessName = first + " " + second + " " + third;
+console.log("Your business name is: " + businessName);
+alert("Your business name is :  " + businessName);
+    </script>
+</body>
+</html>
